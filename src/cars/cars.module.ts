@@ -17,7 +17,7 @@ const AliasMyProvider: Provider = {
   providers: [
     CarsService,
     My,
-    AliasMyProvider,
+    // AliasMyProvider,
     // {
     //   provide: APP_FILTER,
     //   useClass: CarsFilterFilter,

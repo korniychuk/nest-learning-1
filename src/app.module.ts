@@ -6,9 +6,11 @@ import { CatsService } from './cats/cats.service';
 import { CarsModule } from './cars/cars.module';
 import { APP_FILTER } from '@nestjs/core';
 import { TestFilter } from './test.filter';
+import { AuthModule } from './auth/auth.module';
+import { UsersModule } from './users/users.module';
 
 @Module({
-  imports: [CarsModule],
+  imports: [CarsModule, AuthModule, UsersModule],
   controllers: [AppController, CatsController],
   providers: [
     AppService,

@@ -16,10 +16,10 @@ export class CarsController {
 
   public constructor(
     private readonly $cars: CarsService,
-    @Inject('AliasMy')
-    private readonly $aliasMy: any,
+    // @Inject('AliasMy')
+    // private readonly $aliasMy: any,
   ) {
-    console.log('My', $aliasMy);
+    // console.log('My', $aliasMy);
   }
 
   // @UseFilters(CarsFilterFilter)
