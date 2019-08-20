@@ -9,6 +9,11 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "rootDir": "./",
+    "paths": {
+      "@app/*": ["./src/*"],
+      "@common/*": ["./src/common/*"]
+    },
     "incremental": true
   },
   "exclude": ["node_modules", "dist"]
