@@ -11,8 +11,6 @@ import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { PhotoModule } from '@app/photo/photo.module';
 
-console.log(__dirname);
-console.log('1!!', process.env.NODE_PATH, [__dirname + '/**/*.entity{.ts,.js}']);
 @Module({
   imports: [
     TypeOrmModule.forRoot({
